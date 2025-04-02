@@ -21,7 +21,7 @@ jobs:
       - name: Install Python Dependency
         run: |
           pip3 install requests
-          pip3 install BeautifulSoup
+          pip3 install bbeautifulSoup4
       - name: |
           Run static.py  # 前面都是在安裝 Python 環境，這裡才是真的去執行 crawler.py 的程式
           Run api.py
