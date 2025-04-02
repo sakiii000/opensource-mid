@@ -32,7 +32,5 @@ jobs:
         run: |
           git config --global user.name "asuna920909"
           git config --global user.email "asuna920909@gmail.com"
-          git pull --rebase origin main  # 先拉取最新的遠端變更，並使用 rebase 避免衝突
-          git add . 
-          git commit -m "mid"
+          git add . && git commit -m "mid"
           git push origin main
